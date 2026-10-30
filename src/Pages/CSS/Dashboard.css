@@ -1,0 +1,118 @@
+.dashboard-card-outer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.dashboard-cards {
+    height: 220px;
+    background-color: #ffff;
+    box-shadow: 0 0 22px rgba(209, 208, 208, 0.8);
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.dashboard-card-icon-outer{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-card-icon{
+    height: 130px;
+    width: 130px;
+   background-color: #E7ECFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #3454D1;
+}
+.dashboard-card-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0;
+  
+}
+.dashboard-card-text>h3{
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1;
+ 
+}
+.dashboard-card-text>p{
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+
+.teacher-dashboard-card-outer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.teacher-dashboard-cards {
+    height: 220px;
+    background-color: #ffff;
+    box-shadow: 0 0 22px rgba(209, 208, 208, 0.8);
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.teacher-dashboard-card-icon-outer{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teacher-dashboard-card-icon{
+    height: 110px;
+    width: 110px;
+   background-color: #E7ECFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #3454D1;
+}
+.teacher-dashboard-card-text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0;
+  
+}
+.teacher-dashboard-card-text>h3{
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1;
+ 
+}
+.teacher-dashboard-card-text>p{
+    color: #000000;
+    letter-spacing: 1px;
+}

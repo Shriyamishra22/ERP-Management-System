@@ -1,0 +1,212 @@
+[
+  {
+    "_id": 1,
+    "Class": "LKG",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Math", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Science", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Social Science", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Hindi", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Chemistry", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "Art", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Computer", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Sanskrit", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Home Science", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 2,
+    "Class": "UKG",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Math", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Hindi", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Science", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Computer", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Art", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "GK", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Music", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Drawing", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Moral Science", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 3,
+    "Class": "1st",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123476789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "EVS", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Computer", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Art", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "GK", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Music", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Moral Science", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Drawing", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 4,
+    "Class": "2nd",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123476789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "EVS", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Computer", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "GK", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "Art", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Music", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Moral Science", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Drawing", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 5,
+    "Class": "3rd",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Science", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Social Science", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Computer", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "GK", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Art", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Sanskrit", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Moral Science", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 6,
+    "Class": "4th",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Science", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Social Science", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Computer", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "GK", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Art", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Sanskrit", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Moral Science", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 7,
+    "Class": "5th",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Science", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Social Science", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Computer", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "GK", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Art", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Sanskrit", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Moral Science", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 8,
+    "Class": "6th",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Science", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Social Science", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Computer", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "Sanskrit", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "GK", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Art", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Moral Science", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 9,
+    "Class": "7th",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Physics", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Chemistry", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Biology", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "Social Science", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Computer", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Sanskrit", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "GK", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  },
+  {
+    "_id": 10,
+    "Class": "8th",
+    "Subjects": [
+      {"Subject": "English", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "Hindi", "Teacher": "SK Mishra", "mobile": "893456789"},
+      {"Subject": "Math", "Teacher": "RK Mishra", "mobile": "903456789"},
+      {"Subject": "Physics", "Teacher": "Vinod Kumar Mishra", "mobile": "823456789"},
+      {"Subject": "Chemistry", "Teacher": "Anadi Kumar Mishra", "mobile": "128956789"},
+      {"Subject": "Biology", "Teacher": "LM Shukla", "mobile": "129056789"},
+      {"Subject": "Social Science", "Teacher": "RD Verma", "mobile": "1234906789"},
+      {"Subject": "Computer", "Teacher": "Yogesh Pal", "mobile": "123457900"},
+      {"Subject": "Sanskrit", "Teacher": "VedPrakash", "mobile": "123456789"},
+      {"Subject": "GK", "Teacher": "Sunil Kumar Verma", "mobile": "1234906789"}
+    ],
+    "fee": [
+      {"FeeType": "Admission Fee", "Amount": "1000", "PaymentType": "One Time"},
+      {"FeeType": "Tution Fee", "Amount": "600", "PaymentType": "Monthly"},
+      {"FeeType": "Exam Fee", "Amount": "200", "PaymentType": "One Time"}
+    ]
+  }
+]

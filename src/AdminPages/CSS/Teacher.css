@@ -1,0 +1,77 @@
+.all-classes-header {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #aca6a6;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all-classes-header>h1{
+  font-size: 23px;
+}
+
+.all-create-class {
+  background-color: #0B3D78;
+  color: white;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.table-section {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 50px auto;
+    width: 80%;
+    border: 1px soild black;
+}
+.teacher-body{
+  height: 150px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.teacher-body>input {
+  width: 65%;
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  border: 2px solid;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.subject-edit-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subject-btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 20px;
+    background-color: #05366e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.subject-delte-btn{
+   padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

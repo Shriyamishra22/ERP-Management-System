@@ -1,0 +1,120 @@
+[
+    {
+        "_id":1,
+        "name":"Shriya Mishra",
+        "email":"shriya@gmail.com",
+        "otp":"1234",
+        "mobile": "123446789",
+        "role":"SupperAdmin",
+        "token":"akhdjkhal12398@#khkjghjg&^%$#$@$#@hfjfjhdhg"
+    },
+    {
+        "_id":2,
+        "name":"Simmi Mishra",
+        "email":"simmi@gmail.com",
+        "mobile": "123456789",
+        "otp":"5678",
+        "role":"Admin",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+        {
+        "_id":3,
+        "name":"Simmi Mishra",
+        "email":"juhi@gmail.com",
+        "mobile": "123476789",
+        "otp":"9678",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+     {
+        "_id": 4,
+        "name": "VedPrakash",
+        "mobile": "123456789",
+        "email":"ved@gmail.com",
+        "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjh"
+
+    },
+    {
+        "_id": 5,
+        "name": "SK Mishra",
+        "mobile": "893456789",
+        "email":"ved@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 6,
+        "name": "RK Mishra",
+        "mobile": "903456789",
+        "email":"ved@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 7,
+        "name": "Vinod Kumar Mishra",
+        "mobile": "823456789",
+        "email":"vinod@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 8,
+        "name": "Anadi Kumar Mishra",
+        "mobile": "128956789",
+        "email":"Anadi@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 9,
+        "name": "LM Shukla",
+        "mobile": "129056789",
+        "email":"LM@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 10,
+        "name": "RD Verma",
+        "mobile": "1234906789",
+        "email":"RD@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 11,
+        "name": "Yogesh Pal",
+        "mobile": "123457900",
+        "email":"yogesh@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 12,
+        "name": "Vedant",
+        "mobile": "123456789",
+        "email":"vedant@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    },
+    {
+        "_id": 13,
+        "name": "Sunil Kumar Verma",
+        "mobile": "1234906789",
+        "email":"sunil@gmail.com",
+          "otp":"0000",
+        "role":"Teacher",
+        "token":"khdkaskgddjg2375376%$@jgjk&%^&#^#JH@46836bjhv"
+    }
+]

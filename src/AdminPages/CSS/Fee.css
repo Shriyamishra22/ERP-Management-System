@@ -1,0 +1,435 @@
+.fee-collect-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #f5f7fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(4, 40, 87, 0.06);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fee-collect-header {
+    width: 100%;
+    min-height: 80px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #e1e5ef;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(4, 40, 87, 0.05);
+}
+
+.fee-collect-header>span {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22px;
+    background: #042857;
+    border-radius: 10px;
+}
+
+.fee-collect-header>input {
+    flex: 1;
+    min-width: 0;
+    height: 46px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    outline: none;
+    color: #0b1120;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.fee-collect-header>input::placeholder {
+    color: #7b8798;
+}
+
+.fee-collect-header>input:focus {
+    background: #ffffff;
+    border-color: #2457e6;
+    box-shadow: 0 0 0 3px rgba(36, 87, 230, 0.10);
+}
+
+.fee-collect-header>button {
+    min-width: 120px;
+    height: 46px;
+    padding: 0 22px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #2457e6;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.fee-collect-header>button:hover {
+    background: #042857;
+    box-shadow: 0 4px 10px rgba(4, 40, 87, 0.18);
+    transform: translateY(-2px);
+}
+
+.fee-collect-details {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 18px;
+    padding: 22px 25px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background: #ffffff;
+    border: 1px solid #e1e5ef;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(4, 40, 87, 0.05);
+}
+
+
+.left-side-fee {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile {
+    width: 95px;
+    height: 95px;
+    min-width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e8efff;
+    border: 4px solid #f1f5ff;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(36, 87, 230, 0.08);
+}
+
+.profile>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #042857;
+    font-size: 28px;
+}
+
+.fee-summary {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #334155;
+}
+
+.fee-summary label:first-child {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #2457e6;
+    background: #edf2ff;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.fee-summary label:nth-child(2) {
+    color: #0b1120;
+    font-size: 21px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.fname {
+    color: #64748b;
+    font-size: 15px;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+}
+
+
+
+/* .right-side-fee {
+    flex: 1;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 12px;
+}
+
+.right-side-fee > span {
+    width: 100%;
+    min-height: 65px;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #042857;
+    font-size: 15px;
+    font-weight: 600;
+    background: #f0f5ff;
+    border: 1px solid #dbe5ff;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.right-side-fee > span:hover {
+    background: #e5edff;
+    border-color: #b8ccff;
+    transform: translateY(-2px);
+}
+
+.right-side-fee label {
+    width: 100%;
+    min-height: 50px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    background: #042857;
+    border: 1px solid #042857;
+    border-radius: 8px;
+} */
+
+.fee-table {
+    width: 100%;
+    margin-top: 18px;
+    overflow-x: auto;
+    background: #ffffff;
+    border: 1px solid #e1e5ef;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(4, 40, 87, 0.05);
+}
+
+.fee-table table {
+    width: 100%;
+    min-width: 650px;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+
+
+.fee-table thead th {
+    padding: 17px 18px;
+    color: #042857;
+    background: #edf3ff;
+    border-bottom: 1px solid #d6e2ff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+}
+
+
+.fee-table tbody td {
+    padding: 16px 18px;
+    color: #475569;
+    font-size: 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid #edf0f5;
+    white-space: nowrap;
+}
+
+.fee-table tbody tr {
+    transition: background 0.2s ease;
+}
+
+.fee-table tbody tr:hover {
+    background: #f5f8ff;
+}
+
+.fee-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.fee-table tbody td:first-child {
+    color: #2457e6;
+    font-weight: 700;
+}
+
+.fee-table tbody td:nth-child(4) {
+    color: #15803d;
+    font-weight: 700;
+}
+
+.fee-table tbody td:last-child {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.fee-details {
+    margin-top: 20px;
+}
+
+
+
+.fee-type-details {
+    width: 100%;
+    min-height: auto;
+    margin-top: 18px;
+    padding: 25px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #e1e5ef;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(4, 40, 87, 0.05);
+}
+
+
+.collect-field-details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 25px;
+    width: 100%;
+}
+
+.fee-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+}
+
+.collect-field-details .form-label,
+.Remark label {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #042857;
+}
+
+.collect-field-details .form-text {
+    width: 100%;
+    height: 48px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #b8dce8;
+    border-radius: 8px;
+    outline: none;
+    background-color: #e8f8fa;
+}
+
+.collect-field-details .form-text:focus {
+    border-color: #2457e6;
+    box-shadow: 0 0 0 3px rgba(36, 87, 230, 0.10);
+}
+
+
+.Remark {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    min-height: 110px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    resize: vertical;
+    outline: none;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+.textarea:focus {
+    border-color: #2457e6;
+    box-shadow: 0 0 0 3px rgba(36, 87, 230, 0.10);
+}
+
+
+.remaining-collect {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.remaining-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.remain {
+    margin: 0;
+    color: #042857;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.remaining-info h3 {
+    margin: 0;
+    color: #042857;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.collect {
+
+    padding: 11px 24px;
+    border: none;
+    color: #ffffff;
+    background-color: #051e64;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.collect:hover {
+    background-color: #042857;
+}
+
+.pay {
+    padding: 11px 24px;
+    border: none;
+    color: #ffffff;
+    background-color: #051e64;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}

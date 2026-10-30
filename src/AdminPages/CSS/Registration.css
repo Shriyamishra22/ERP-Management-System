@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.erp-student-registration-form {
+    min-height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-student {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: rgb(62, 78, 124);
+}
+
+.registration-info {
+    margin-top: 10px;
+    height: 80px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgb(145, 145, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.admission-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    /* box-shadow: 0px 5px 8px gray; */
+}
+
+.icon {
+    display: flex;
+    padding: 5px 0px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(81, 81, 180);
+    color: white;
+}
+
+.addmission {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.icon-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(81, 81, 180);
+    color: white;
+}
+
+.resiter-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 30px;
+    border-radius: 5px;
+}
+
+.session-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(81, 81, 180);
+    color: white;
+    font-size: 19px;
+}
+
+.session-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+
+.registration-container {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d8e8fa;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgb(145, 145, 226);
+    overflow: hidden;
+}
+
+
+.personal-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 55px;
+    width: 100%;
+    padding: 8px 15px;
+    background: #edf5ff;
+    border-bottom: 1px solid #d8e8fa;
+}
+
+
+.admin-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: rgb(81, 81, 180);
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details>h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #173b70;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px 22px;
+    padding: 20px 16px;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-width: 0;
+}
+
+
+.form-group>label {
+    font-size: 17px;
+    font-weight: 600;
+    color: #19375f;
+}
+
+
+.form-group input:not([type="radio"]):not([type="file"]),
+.form-group select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    height: 38px;
+    padding: 8px 10px;
+    border: 1px solid #d4e1f1;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #263b59;
+    font-size: 13px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.form-group input::placeholder {
+    color: #8b9db5;
+}
+
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #1683f8;
+    box-shadow: 0 0 0 3px rgba(22, 131, 248, 0.10);
+}
+
+.gender-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.gender-group>label {
+    width: 100%;
+}
+
+.gender-group>label.gender-option {
+    width: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.gender-group input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    accent-color: #1683f8;
+}
+
+
+.Information {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 14px;
+    width: 100%;
+    margin-top: 15px;
+    align-items: stretch;
+}
+
+.last-information,
+.other-information {
+    min-width: 0;
+    border: 1px solid #d8e8fa;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(40, 100, 180, 0.10);
+    overflow: hidden;
+}
+
+
+.last-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: #edf5ff;
+    border-bottom: 1px solid #d8e8fa;
+}
+
+
+.last-icon,
+.other-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+     background-color: rgb(81, 81, 180);
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.last-info h2,
+.other-heading h2 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #173b70;
+}
+
+.last-info p,
+.other-heading p {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: #7187a5;
+}
+
+
+.last-school-fields {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    padding: 14px;
+}
+
+
+.last-information .form-group,
+.other-information .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+
+.last-information .form-group label,
+.other-information .form-group label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #19375f;
+}
+
+.last-information .form-group input,
+.other-information .form-group select {
+    width: 100%;
+    min-width: 0;
+    height: 36px;
+    padding: 7px 8px;
+    border: 1px solid #d4e1f1;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #263b59;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.last-information .form-group input:focus,
+.other-information .form-group select:focus {
+    border-color: #1683f8;
+    box-shadow: 0 0 0 3px rgba(22, 131, 248, 0.10);
+}
+
+
+.other-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: #edfafa;
+    border-bottom: 1px solid #d5eeee;
+}
+
+.other-icon {
+    background-color: rgb(81, 81, 180);
+}
+
+.other-heading h2 {
+    color: rgb(98, 98, 160);
+}
+
+.other-fields {
+    padding: 14px;
+}
